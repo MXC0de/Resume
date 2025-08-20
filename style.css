@@ -1,0 +1,52 @@
+body {
+  font-family: 'Vazir', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+nav a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-card {
+  background: #1e1e1e;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
